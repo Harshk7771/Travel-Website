@@ -1,0 +1,228 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header img
+{
+    width: 170px;
+    float: left;
+}
+.header
+{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/map-3578213__480.jpg);
+    padding: 20px;
+    
+}
+.login-btn
+{
+    width: 100px;
+    padding: 6px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: whitesmoke;
+    margin-left: 5px;
+    float: right;
+}
+.register-btn
+{
+    width: 100px;
+    padding: 6px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: whitesmoke;
+    float: right;
+}
+.header h1
+{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.header p
+{
+    margin: 18px 0;
+    color: #fff;
+    text-align: center;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.features
+{
+    padding: 100px 0;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+{
+    width: 100%;
+}
+.fa-plane-departure
+{
+    font-size: 40px;
+    color: #fff;
+    padding: 5px 0;
+}
+.price
+{
+    width: 65px;
+    height: 45px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px ;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img
+{
+    position: relative;
+}
+.ratings
+{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+.features .far
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details
+{
+    padding: 25px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 20PX;
+}
+.feature-details .fa
+{
+    margin-right: 6px;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.gallery
+{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.gallery-box h4
+{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%,-50%);
+}
+.banner
+{
+    height: 80%;
+    background-image: url(images/india-2830856_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*hover*/
+button.login-btn:hover
+{
+    border: 2px solid #080808;
+    background: #9fbb03;
+    color: black;
+    font-weight: bolder;
+}
+button.register-btn:hover
+{
+    border: 2px solid #080808;
+    background: #9fbb03;
+    color: black;
+    font-weight: bolder;
+}
+button.input-group-text:hover
+{
+    border: 2px solid #080808;
+    color: black;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    font-weight: bolder;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.feature-box:hover
+{
+    transform: scale(1.1);
+}
